@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Yoga Guru
+        </title>
+        <link rel="stylesheet" href="../static/css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="app-bar">
+            <div class = "app-name">
+                <div class="app-name-title">YOGA GURU</div>
+            </div>
+            <div class = "app-banner">
+                <div class="app-banner-img">
+                    <img src="../static/css_img/newpose1.png" />
+                </div>
+                <div class="app-banner-img">
+                    <img src="../static/css_img/newpose2.png" />
+                </div>
+                <div class="app-banner-img">
+                    <img src="../static/css_img/pose2.png" />
+                </div>
+                <div class="app-banner-img">
+                    <img src="../static/css_img/pose1.png" />
+                </div>
+            </div>
+        </div>
+        <div class="app-body">
+            <div class="yoga-lite">
+                <a href="{{url_for('upload_lw')}}">
+                    <div class="yoga-lite-door">
+                        <img src="../static/css_img/Door.png" />
+                    </div>
+                    <div class="yoga-lite-name">YOGA GURU LITE</div>
+                </a>
+            </div>
+            <div class="yoga-heavy">
+                <a href="{{url_for('upload_fs')}}">
+                    <div class="yoga-heavy-door">
+                        <img src = "../static/css_img/realDoor.png" />
+                    </div>
+                    <div class="yoga-heavy-name">YOGA GURU</div>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

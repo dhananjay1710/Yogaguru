@@ -1,0 +1,137 @@
+* {
+    font-family: Poppins;
+    scrollbar-width: none;  /* Firefox */
+  }
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-bar {
+    background-color: #ff9a2d;
+    width: 100%;
+    height: 20vh;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.app-name {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-name-title {
+    font-family: 'Libre Bodoni', serif;
+    color: white;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-banner {
+    flex: 2;
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.app-banner-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-banner-img img {
+    object-fit: cover;
+    height: 80%;
+    border-radius: 25%;
+}
+
+.app-body {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+}
+
+.yoga-lite {
+    display: flex;
+    flex-direction: column;
+    transition: all .2s ease-in-out;
+    margin: 0 auto;
+}
+
+.yoga-lite:hover { 
+    transform: scale(1.1); 
+}
+
+.yoga-lite-door {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yoga-lite-name {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: '#F5F5F5';
+    border-radius: '8px';
+    color: white;
+    font-weight: 600;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+}
+
+.yoga-heavy {
+    display: flex;
+    flex-direction: column;
+    transition: all .2s ease-in-out;
+    margin: 0 auto;
+}
+
+.yoga-heavy:hover { 
+    transform: scale(1.1); 
+}
+
+.yoga-heavy-door {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yoga-heavy-name {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+}
+
+.app-body img {
+    max-width: 80%;
+    object-fit: cover;
+    height: 40vh;
+    border-radius: 8px;  
+}
+
